@@ -1,0 +1,50 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+
+
+
+        {
+            "name": "lab1 maze",
+            "type": "python",
+            "request": "launch",
+            "program": "lab1.py",
+            "console": "integratedTerminal",
+            "args":["terrain2.png",
+                "mpp2.txt",
+                "elPath.txt",
+                "summer",
+                "output2.png"
+            ]
+        },
+        {
+            "name": "lab1 terrain",
+            "type": "python",
+            "request": "launch",
+            "program": "lab1.py",
+            "console": "integratedTerminal",
+            "args":["terrain.png",
+                "mpp.txt",
+                "white.txt",
+                "fall",
+                "output.png"
+            ]
+        },
+        {
+            "name": "lab1 watl",
+            "type": "python",
+            "request": "launch",
+            "program": "lab1.py",
+            "console": "integratedTerminal",
+            "args":["watlTerrain.png",
+                "mppWatl.txt",
+                "watlPath.txt",
+                "winter",
+                "output.png"
+            ]
+        }
+    ]
+}
