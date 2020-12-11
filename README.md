@@ -1,16 +1,14 @@
 # A* Pathfinding on a map
 
-This is a program written for my Intro to AI class. It involves using a* pathfinding to search for the best way to navigate a map of Mendon Ponds Park taking into acount terrain type, elevation, and season.
+This is a program written in python for my Intro to AI class. It involves using a* pathfinding to search for the best way to navigate a map of Mendon Ponds Park taking into acount terrain type, elevation, and season.
 
 ![The Map](https://i.imgur.com/wcs51Ys.png)
 
 It's a little difficult to see due to the way we were required to represent the nodes and path, but on the right image you can see a purple line scattered with green waypoints. The path follows the footpaths for the most part, and when optimal, crosses a field. It avoids steep uphill and downhill portions and water.
 
-To test if out for yourself, the usage is: python lab1.py <terrainImage> <elevationFile> <pathFile> <season> <outputFileName>
+To test if out for yourself, the usage is: python lab1.py [terrainImage] [elevationFile] [pathFile] [season] [outputFileName]
 
-<terrainImage> is the terrain image, but any image can be used. The colorings are as follows.
-
-[test link](http://www.google.com)
+[terrainImage] is the terrain image. terrain.png was the given one, but any image can be used. The colorings are as follows.
 
 <table border="1">
 
@@ -129,3 +127,15 @@ To test if out for yourself, the usage is: python lab1.py <terrainImage> <elevat
 </tbody>
 
 </table>
+
+[elevationFile] is a file with x*y floats describing the elevation of the terrain. The actual elevation doesn't relaly matter, it just has to be relative. See mpp.txt for the given one.
+
+[pathFile] is a text file with 2 ints per line. These set the waypoints in pixels to pathfind between. There must be at least two points.
+
+[season] changes a couple settings within the pathfinding. "summer" is the default, but "spring", "fall", and "winter" are also available. Spring is muddy, fall has leaves covering the path making it harder, and winter acounts for ice.
+
+[outputFileName] is the file to save the output to. This will be the original terrain image, but with the path superimposed on it, and with any of the seasonal effects present. ex: winter will have the water near the land frozen over, represented as a ligher blue color.
+
+
+
+
