@@ -130,7 +130,7 @@ To test if out for yourself, the usage is: python lab1.py [terrainImage] [elevat
 
 [elevationFile] is a file with x*y floats describing the elevation of the terrain. The actual elevation doesn't relaly matter, it just has to be relative. See mpp.txt for the given one.
 
-[pathFile] is a text file with 2 ints per line. These set the waypoints in pixels to pathfind between. There must be at least two points.
+[pathFile] is a text file with 2 ints per line. These set the waypoints in pixels to pathfind between. There must be at least two points. white.txt was the waypoint file used for the image above.
 
 [season] changes a couple settings within the pathfinding. "summer" is the default, but "spring", "fall", and "winter" are also available. Spring is muddy, fall has leaves covering the path making it harder, and winter acounts for ice.
 
