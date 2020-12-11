@@ -10,6 +10,8 @@ To test if out for yourself, the usage is: python lab1.py <terrainImage> <elevat
 
 <terrainImage> is the terrain image, but any image can be used. The colorings are as follows.
 
+[test link](http://www.google.com)
+
 <table border="1">
 
 <tbody>
@@ -40,7 +42,7 @@ To test if out for yourself, the usage is: python lab1.py <terrainImage> <elevat
 
 <td bgcolor="#ffc000">#FFC000 (255,192,0)</td>
 
-<td>[B](http://cs.rit.edu/~zjb/courses/331/proj1/photos/B.jpg)</td>
+<td> [B](http://cs.rit.edu/~zjb/courses/331/proj1/photos/B.jpg)</td>
 
 </tr>
 
@@ -50,7 +52,7 @@ To test if out for yourself, the usage is: python lab1.py <terrainImage> <elevat
 
 <td bgcolor="#ffffff">#FFFFFF (255,255,255)</td>
 
-<td>[C](http://cs.rit.edu/~zjb/courses/331/proj1/photos/C.jpg) · [D](http://cs.rit.edu/~zjb/courses/331/proj1/photos/D.jpg)</td>
+<td> [C](http://cs.rit.edu/~zjb/courses/331/proj1/photos/C.jpg) · [D](http://cs.rit.edu/~zjb/courses/331/proj1/photos/D.jpg)</td>
 
 </tr>
 
